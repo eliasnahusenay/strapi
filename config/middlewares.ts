@@ -19,7 +19,7 @@ export default [
     name: 'strapi::cors',
     config: {
       enabled: true,
-      origin: ['http://localhost:5173', 'http://localhost:1337'], // Add both frontend and backend origins
+      origin: ['https://eliashagosportfolio.netlify.app', 'https://strapi-s525.onrender.com'], // Add both frontend and backend origins
       headers: [
         'Content-Type',
         'Authorization',
